@@ -7,7 +7,7 @@ class FullDel:
     trash = []
 
     for i in di:
-        if os.path.isdir(i) == False and i != "FullDel.exe":
+        if os.path.isdir(i) == False and i != "FullDel.py":
             trash.append(i)
 
     for i in trash:
